@@ -1,0 +1,13 @@
+.BaseLayout {
+  background-color: #fed6e3;
+  background-image: url('../../public/img/airPlane.jpeg');
+  background-size: cover;
+  background-position: center; /* Centrar la imagen */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5vw; /* Utilizar unidades vw para el padding */
+  box-sizing: border-box;
+}

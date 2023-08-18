@@ -1,0 +1,59 @@
+.Passengers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.Passengers input {
+  font-size: 1rem;
+  margin: 16px 0;
+  border-radius: 8px;
+  padding: 8px;
+  border: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.Passengers-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.Passengers-title {
+  margin-bottom: 16px;
+}
+
+.Passengers-add{
+  margin-left: auto;
+  margin-left: auto;
+  background-color: #293684; /* Lila */
+  color: white; /* Letras blancas */
+  border: none; /* Sin borde */
+  padding: 10px 20px; /* Espaciado interior */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambio de cursor al pasar el mouse */
+  border-radius: 15px;
+}
+.Passenger-pay{
+  margin-left: auto;
+  margin-left: auto;
+  background-color: #293684; /* Lila */
+  color: white; /* Letras blancas */
+  border: none; /* Sin borde */
+  padding: 10px 20px; /* Espaciado interior */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambio de cursor al pasar el mouse */
+  border-radius: 15px;
+}
+
+.Passenger-pay:hover {
+  background-color: #3b24be; /* Cambia a otro tono de lila */
+}
+.Passengers-add:hover {
+  background-color: #3b24be; /* Cambia a otro tono de lila */
+}

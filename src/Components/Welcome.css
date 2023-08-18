@@ -1,0 +1,22 @@
+.Welcome {
+  display: flex;
+  flex-direction: column;
+}
+
+.Welcome-cancel {
+  margin-left: auto;
+  margin-left: auto;
+  background-color: #293684; /* Lila */
+  color: white; /* Letras blancas */
+  border: none; /* Sin borde */
+  padding: 10px 20px; /* Espaciado interior */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambio de cursor al pasar el mouse */
+  border-radius: 15px;
+}
+
+.Welcome-cancel:hover {
+  background-color: #3b24be; /* Cambia a otro tono de lila */
+}
+
+
